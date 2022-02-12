@@ -79,9 +79,8 @@ ul#horizontal-list a:nth-last-child(1){
 
 /* Footer Section Styles */
 
-
+/* 
 #footer-logo{
-    /* margin-left: 35%; */
     width: 35%;
     margin-top: 25px;
     display: block;
@@ -94,7 +93,7 @@ ul#horizontal-list a:nth-last-child(1){
 #footer{
     border-top: 3px solid black;
     margin-top: 20vh;
-}
+} */
 
 /* Profile Styles */
 .hero-section{
