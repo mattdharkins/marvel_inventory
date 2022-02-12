@@ -50,7 +50,7 @@ def signin():
             if logged_user and check_password_hash(logged_user.password, password):
                 login_user(logged_user)
                 flash('You were successfully logged in: Via Email/Password', 'auth-success')
-                return redirect(url_for('site.home'))
+                return redirect(url_for('site.profile'))
             else:
                 flash('Your Email/Password is incorrect', 'auth-failed')
                 return redirect(url_for('auth.signin'))
