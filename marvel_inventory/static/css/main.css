@@ -1,0 +1,122 @@
+/* nav styling */
+
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+/* target main logo image */
+
+.ct-nav img{
+    width: 40%;
+    max-width: 100%;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 50px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding:  0.5vw;
+    color: black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid blue;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+
+/* end of nav styling */
+
+/* Start of Hero/Header Section */
+#header-text{
+    padding: 8vw;
+}
+
+.header-image{
+    /* padding-top: 8vh; */
+    /* padding-right: 5vw; */
+    margin-top: 15px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 25px;
+}
+/* End of Hero/Header Section */
+
+
+/* Start of Features Section Styles */
+#api-image,#graphql-image,#database-image{
+    margin-bottom: 10vh;
+}
+
+#features-section{
+    margin: 8vw;
+    text-align: center;
+}
+/* End of Features Section */
+
+/* Community Section Styles */
+#Community-image{
+    width: 50%;
+    max-width: 75%;
+    margin-left: 10vw;
+}
+
+#Community-section-text{
+    text-align: left;
+    
+}
+
+/* End of Community Section */
+
+/* Footer Section Styles */
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+#footer-logo{
+    /* width:100%;
+    max-width:100%; */
+    /* margin-left: 200px; */
+    /* vertical-align: middle; */
+    margin-left: 35%;
+    width: 500px;
+    margin-top: 15px;
+
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top: 20vh;
+}
+
+/* Profile Styles */
+.hero-section{
+    margin-top: 7vh;
+    height: 95vh;
+    background-image:linear-gradient(to right bottom, rgba(30, 115,172, 0.7), rgba(142, 57, 153, 0.6)), url(../images/marvel-univ-profile2.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path:polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+.header-text{
+    display:flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}
