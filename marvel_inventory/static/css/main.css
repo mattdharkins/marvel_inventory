@@ -57,9 +57,9 @@ ul#horizontal-list a:nth-last-child(1){
 
 
 /* Start of Features Section Styles */
-/* #api-image,#graphql-image,#database-image{
-    margin-bottom: 10vh;
-} */
+#api-image,#graphql-image,#database-image{
+    margin-bottom: 5vh;
+}
 
 #features-section{
     margin: 7vw;
