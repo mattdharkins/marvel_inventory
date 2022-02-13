@@ -37,6 +37,8 @@ ul#horizontal-list a:nth-last-child(1){
 /* end of nav styling */
 
 /* Start of Hero/Header Section */
+
+
 #header-text{
     padding: 8vw;
 }
@@ -44,30 +46,39 @@ ul#horizontal-list a:nth-last-child(1){
 .header-image{
     /* padding-top: 8vh; */
     /* padding-right: 5vw; */
+    float: right;
+    margin-right: 15px;
     margin-top: 15px;
     width: 100%;
     max-width: 100%;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 /* End of Hero/Header Section */
 
 
 /* Start of Features Section Styles */
-#api-image,#graphql-image,#database-image{
+/* #api-image,#graphql-image,#database-image{
     margin-bottom: 10vh;
-}
+} */
 
 #features-section{
-    margin: 8vw;
+    margin: 7vw;
+ 
     text-align: center;
 }
 /* End of Features Section */
 
 /* Community Section Styles */
+
+
+
 #Community-image{
-    width: 50%;
+    width: 65%;
     max-width: 75%;
-    margin-left: 10vw;
+    margin-left: 15vw;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+
 }
 
 #Community-section-text{
@@ -86,13 +97,13 @@ ul#horizontal-list a:nth-last-child(1){
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 7px;
+    margin-bottom: 6vh;
 
 }
 
 #footer{
     border-top: 3px solid black;
-    margin-top: 20vh;
+    margin-top: 12vh;
 }
 
 /* Profile Styles */

@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container"></div>
+<div class="container" id="header"></div>
     <!--Header Section-->
     <header class="row">
         <div class="col-12 col-md-6" id="header-text">
@@ -21,68 +21,71 @@
             <img class="header-image" src="../static/images/marvel-univ.jpg" alt="Hero Header Image">
         </div>
     </header>
+</div>
 
 
     <!--Collection of Features Section-->
-    <section class="row" id="features-section">
-        <div class="col-12 col-md-4">
-            <img src="../static/images/api.png" alt="API Image" id="api-image">
-            <h4>Dedicated API Routes</h4>
-            <p>
-                If you are a fan of using traditional API routes, we have those for you!
-            </p>
-        </div>
+<section class="row" id="features-section">
+    <div class="col-12 col-md-4">
+        <img src="../static/images/api.png" alt="API Image" id="api-image">
+        <h4>Dedicated API Routes</h4>
+        <p>
+            If you are a fan of using traditional API routes, we have those for you!
+        </p>
+    </div>
 
-        <div class="col-12 col-md-4">
-            <img src="../static/images/graphql.png" alt="graphql-image" id="graphql-image">
-            <h4>GraphQL API Route</h4>
-            <p>
-                If you want all data from one endpoint, we have that too!
-            </p>
-        </div>
+    <div class="col-12 col-md-4">
+        <img src="../static/images/graphql.png" alt="graphql-image" id="graphql-image">
+        <h4>GraphQL API Route</h4>
+        <p>
+            If you want all data from one endpoint, we have that too!
+        </p>
+    </div>
 
-        <div class="col-12 col-md-4">
-            <img src="../static/images/db.png" alt="database-image" id="database-image">
-            <h4>Backed By a PostgreSQL Database</h4>
-            <p>
-                All data will be persisted inside of a secure Postgres Database.
-            </p>
-        </div>
-    </section>
+    <div class="col-12 col-md-4">
+        <img src="../static/images/db.png" alt="database-image" id="database-image">
+        <h4>Backed By a PostgreSQL Database</h4>
+        <p>
+            All data will be persisted inside of a secure Postgres Database.
+        </p>
+    </div>
+</section>
     <!--End of Collection Features-->
 
     <!-- Start of Community Section -->
-    <section class="row">
-        <div class="col-12 col-md-6">
-            <img src="../static/images/community.png" alt="Community Image" id="Community-image">
-        </div>
 
-        <div class="col-12 col-md-6" id="Community-section-text">
-            <h4>Talk with like minded marvel character collectors</h4>
-            <p>
-                Talk with other devs around the world and collab
-                on projects with your data. Join our slack channel and give
-                a star to the project on Github!
-            </p>
-            <div>
-                <a href="https://github.com/mattdharkins/marvel_inventory" target="_blank">
-                    <button class="btn btn-primary">View On Github</button>
-                </a>
-                <a href="https://slack.com/" target="_blank">
-                    <button class="btn btn-primary">Join Our Slack Channel!</button>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!--End of Community Section-->
 
-    <!--Start of Footer-->
-    <footer id="footer">
-            <img src="../static/images/hero-api-tech-logo.png" alt="Hero API Tech Logo" id="footer-logo">
-        </div>
-    </footer>
-    <!-- End of Footer -->
+<section class="row">
+    <div class="col-12 col-md-6">
+        <img src="../static/images/community.png" alt="Community Image" id="Community-image">
+    </div>
 
-</div>
+    <div class="col-12 col-md-6" id="Community-section-text">
+        <h4><br><br>Talk with like minded marvel character collectors</h4>
+        <p>
+            Talk with other devs around the world and collab
+            on projects with your data.<br> Join our slack channel and give
+            a star to the project on Github!
+        </p>
+        <div>
+            <a href="https://github.com/mattdharkins/marvel_inventory" target="_blank">
+                <button class="btn btn-primary">View On Github</button>
+            </a>
+            <a href="https://slack.com/" target="_blank">
+                <button class="btn btn-primary">Join Our Slack Channel!</button>
+            </a>
+        </div>
+    </div>
+</section> -->
+<!--End of Community Section
+
+<!-- Start of Footer -->
+<footer id="footer">
+        <img src="../static/images/hero-api-tech-logo.png" alt="Hero API Tech Logo" id="footer-logo">
+    </div>
+</footer>
+<!-- End of Footer -->
+
+
 
 {% endblock content %}
